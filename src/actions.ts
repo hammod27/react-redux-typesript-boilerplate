@@ -1,4 +1,4 @@
-import { ChangeTestString } from "src/store/test/actions"; 
+import { SetNavigatorLocation } from "src/store/navigator/actions";
+import { ChangeTestString } from "src/store/test/actions";
 
-export type AppAction = 
-    | ChangeTestString;
+export type AppAction = SetNavigatorLocation | ChangeTestString;
